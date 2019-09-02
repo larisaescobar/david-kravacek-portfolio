@@ -1,0 +1,39 @@
+.App {
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.verticalLine {
+  height: 100%;
+  width: 1px; 
+  background-color: #EDEDED;
+  top: 0;
+  position: fixed;
+  z-index: -1;
+}
+
+.leftLine{
+  left: 33%;
+}
+
+.rightLine{
+  right: 33%;
+}
+
+.flex-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="13px" viewBox="0 0 14 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>heart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-1222.000000, -1651.000000)">
+            <g id="coded" transform="translate(1134.000000, 1641.000000)">
+                <g id="heart" transform="translate(87.000000, 8.000000)">
+                    <rect id="canvas" x="0" y="0" width="16" height="16"></rect>
+                    <path d="M13.4741551,8.81125618 L7.85541049,14.2372148 L2.42945186,8.61847016 C0.931114757,7.06689667 0.974271376,4.59445563 2.52584487,3.09611853 C4.07741836,1.59778142 6.5498594,1.64093804 8.0481965,3.19251153 C9.59976999,1.69417443 12.072211,1.73733105 13.5705481,3.28890454 C15.0688852,4.84047803 15.0257286,7.31291907 13.4741551,8.81125618 Z" fill="#C4C4C4"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

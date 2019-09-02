@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <g id="portfolio" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop" transform="translate(-72.000000, -72.000000)" fill-rule="nonzero">
+            <g id="title" transform="translate(72.000000, 72.000000)">
+                <g id="logo">
+                    <path d="M0,0 L48,0 L48,48 L0,48 L0,0 Z M1,1 L1,47 L47,47 L47,1 L1,1 Z" id="frame" fill="#272727"></path>
+                    <path d="M22.3515625,39 L12,39 L12,10 L21.84375,10 C25.4375,10 28.2890625,10.627027 30.3203125,11.7635135 C34.421875,14.1148649 37,18.5824324 37,24.5 C37,34.0621622 31.375,39 22.3515625,39 Z M19.3828125,32.4945946 L22.703125,32.4945946 C26.9609375,32.4945946 29.6171875,29.8297297 29.6171875,24.5391892 C29.6171875,19.3662162 27,16.5054054 22.7421875,16.5054054 L19.3828125,16.5054054 L19.3828125,32.4945946 Z" id="D" fill="#F16C6C"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
