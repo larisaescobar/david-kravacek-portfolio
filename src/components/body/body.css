@@ -71,3 +71,32 @@ footer span{
 .footer-div p {
     margin-bottom: 0;
 }
+
+@media only screen and (max-width: 520px){
+ #clientLogos{
+     flex-direction: row;
+     flex-wrap: wrap;
+     margin-top: 32px;
+ }
+#clientLogos img{
+    margin: 16px 8px;
+    max-width: 112px;
+}
+@media only screen and (max-width: 520px){
+  .App{
+    padding: 16px;
+    margin: 16px;
+    width: 100%;
+  }
+  .section{
+    margin: 80px auto;
+  }
+}
+.flex-div.footer-div{
+    flex-direction: column;
+    align-items: start;
+}
+.footer-div div{
+    margin: 16px 0;
+}
+  }
