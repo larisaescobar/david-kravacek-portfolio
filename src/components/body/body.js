@@ -37,10 +37,14 @@ export default class Body extends React.PureComponent {
                 <footer id='contact' className='section'>
                     <h6>Get in touch</h6>
                     <h2>hello@davidkravacek.com</h2>
-                    <div class='flex-div'>
-                        <p>Just say hello and we can meet. Btw, you can also find me in <img src={this.props.dribleLogo} id='drible-logo' className="footer-logo" alt="drible logo" /> <img src={this.props.behanceLogo} id='behance-logo'className="footer-logo" alt="behance logo" /> <img src={this.props.vimeoLogo} id='vimeo-logo' className="footer-logo" alt="vimeo logo" /> .</p>
-                        <span>Coded with <img src={this.props.greyheart} alt="heart" /> by <a href='https://larisaescobar.github.io' target='_blank' rel='noopener noreferrer'>Larisa Escobar</a>.</span>
-                    </div>
+                    <div className='flex-div footer-div'>
+                        <div>
+                            <p>Just say hello and we can meet. Btw, you can also find me in <img src={this.props.dribleLogo} id='drible-logo' className="footer-logo" alt="drible logo" /> <img src={this.props.behanceLogo} id='behance-logo'className="footer-logo" alt="behance logo" /> <img src={this.props.vimeoLogo} id='vimeo-logo' className="footer-logo" alt="vimeo logo" /> .</p>
+                        </div>
+                        <div>
+                            <span>Coded with <img src={this.props.greyheart} alt="heart" /> by <a className='footer-anchor' href='https://larisaescobar.github.io' target='_blank' rel='noopener noreferrer'>Larisa Escobar</a>.</span>
+                        </div>
+                    </div>    
                 </footer>
             </div>
         )

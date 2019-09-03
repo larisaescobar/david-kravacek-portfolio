@@ -19,7 +19,6 @@ p {
     font-size: 18px;
     line-height: 32px;
     font-weight: 400;
-    margin-top: 45px;
 }
 a {
     color: #F16C6C;
@@ -62,4 +61,13 @@ footer span{
 }
 .footer-logo{
     margin-bottom: -5px;
+}
+.footer-anchor{
+    color: #C4C4C4;
+}
+.footer-div{
+    align-items: flex-end;
+}
+.footer-div p {
+    margin-bottom: 0;
 }
