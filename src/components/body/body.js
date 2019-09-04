@@ -9,16 +9,20 @@ export default class Body extends React.PureComponent {
                     <h6>
                         Keywords
                     </h6>
-                    <h2>UI, UX, digital, product, freelance, Prague<img src={this.props.heart} alt="heart" /> </h2>
+                    <div class="section-title">
+                        <h2>UI, UX, digital, product, freelance, Prague</h2> <img src={this.props.heart} alt="heart" />
+                    </div>
                     <p>Digital and product designer based in Prague (Cze) and graduated in Zlin (MgA.). I enjoy solving problems 
-                        and designing new & unique solutions. Let’s <a href='#contact'>get in touch</a> and create <br></br>something awesome.
+                        and designing new & unique solutions. Let’s <a href='#contact'>get in touch</a> and create something awesome.
                         I can help you with UI, UX, graphic design, motion and 3D.</p>
                 </div>
                 <div className='section'>
                     <h6>
                         Clients
                     </h6>
-                    <h2>Let’s conquer the digital world <a href='#contact'>together</a>.</h2>
+                    
+                        <h2>Let’s conquer the digital world<a href='#contact'> together</a>.</h2>
+                    
                     <p>I've had the opportunity to collaborate with some wonderful companies <br></br>
                         start-ups and the incredible people behind them. Here are some of my clients.</p>
                         <div id='clientLogos' className='flex-div'>

@@ -6,7 +6,7 @@ header{
     justify-content: space-between;
 }
 h1 {
-    font-size: 32px;
+    font-size: 48px;
     color: #272727;
     font-weight: 500;
     margin: 0;
@@ -27,3 +27,41 @@ h1 {
     height: 3px;
     margin: 0 0 6px 11px;
 }
+.arrow{
+    max-width: 16px;
+}
+.arrow :hover {
+    cursor: pointer;
+}
+.arrow-top{
+    width: 2px;
+    height: 14px;
+    background-color: #F16C6C;
+    margin: 0 auto;
+}
+.arrow-bottom{
+    height: 0px; width: 0px;
+      border: 8px solid;
+      border-color: 
+          #F16C6C
+         #F16C6C
+          transparent
+          transparent;
+      transform: rotate(135deg);
+    margin-top: -10px;
+  }
+  .arrow:hover .arrow-top{
+      background-color: #000;
+  }
+  .arrow:hover .arrow-bottom{
+    border-color: 
+          #F16C6C
+         #F16C6C
+          transparent
+          transparent;
+  }
+  @media only screen and (max-width: 520px) {
+      h1{
+          font-size: 32px;
+      }
+  }

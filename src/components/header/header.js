@@ -13,8 +13,9 @@ export default class Header extends React.PureComponent {
               <h1>your guide through <span className='pinkHighlight'>digital design</span>.</h1>
             </div>
             <div>
-              <a href="#Body">
-                <img src={this.props.arrowSrc} alt="arrow" /> 
+              <a className="arrow" href="#Body">
+                  <div className="arrow-top"></div>
+                  <div className="arrow-bottom"></div>
               </a>
             </div>
         </header>

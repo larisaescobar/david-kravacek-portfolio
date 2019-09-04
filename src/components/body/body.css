@@ -27,6 +27,13 @@ a {
 .section{
     margin: 150px 0;
 }
+.section-title{
+    display: inline-flex;
+    align-items: center;
+}
+.section p{
+    max-width: 750px;
+}
 #clientLogos{
     max-width: 600px;
     margin-top: 72px;
@@ -73,24 +80,24 @@ footer span{
 }
 
 @media only screen and (max-width: 520px){
- #clientLogos{
-     flex-direction: row;
-     flex-wrap: wrap;
-     margin-top: 32px;
- }
-#clientLogos img{
-    margin: 16px 8px;
-    max-width: 112px;
-}
-@media only screen and (max-width: 520px){
   .App{
     padding: 16px;
-    margin: 16px;
     width: 100%;
   }
   .section{
     margin: 80px auto;
   }
+  #clientLogos{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 32px;
+}
+.section-title{
+    display: initial;
+}
+#clientLogos img{
+   margin: 16px 8px;
+   max-width: 112px;
 }
 .flex-div.footer-div{
     flex-direction: column;
@@ -99,4 +106,4 @@ footer span{
 .footer-div div{
     margin: 16px 0;
 }
-  }
+}

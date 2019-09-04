@@ -1,6 +1,5 @@
 import React from 'react';
 import logo from './logo.svg';
-import arrow from './assets/arrow_down.svg';
 import redbull from './assets/redbull.png';
 import mondelez from './assets/mondelez.png';
 import mews from './assets/mews.png';
@@ -25,7 +24,6 @@ function App() {
       <div className="verticalLine rightLine"></div>
       <Header 
         logoSrc={logo}
-        arrowSrc={arrow}
         />
         <Body 
         redbullLogo={redbull}
