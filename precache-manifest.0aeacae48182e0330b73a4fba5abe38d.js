@@ -1,27 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cf8e4525a16a0658ebf2a27e77453621",
+    "revision": "80ea23f0257266054eb7d06900bfdcea",
     "url": "/david-kravacek-portfolio/index.html"
   },
   {
-    "revision": "eceb7fc0a97bf3eb514e",
-    "url": "/david-kravacek-portfolio/static/css/main.2288da0a.chunk.css"
+    "revision": "baaefd934263ff34d7e0",
+    "url": "/david-kravacek-portfolio/static/css/main.944c2466.chunk.css"
   },
   {
-    "revision": "06061e97c5c458d9644f",
-    "url": "/david-kravacek-portfolio/static/js/2.4facfd59.chunk.js"
+    "revision": "90ae90289e9f577501d1",
+    "url": "/david-kravacek-portfolio/static/js/2.de2a0303.chunk.js"
   },
   {
-    "revision": "eceb7fc0a97bf3eb514e",
-    "url": "/david-kravacek-portfolio/static/js/main.1555bbe7.chunk.js"
+    "revision": "baaefd934263ff34d7e0",
+    "url": "/david-kravacek-portfolio/static/js/main.00792d6f.chunk.js"
   },
   {
     "revision": "3596686aa07fba278946",
     "url": "/david-kravacek-portfolio/static/js/runtime~main.7c3fbbd7.js"
-  },
-  {
-    "revision": "d7fb0ea88fbed3243d8239460857b27a",
-    "url": "/david-kravacek-portfolio/static/media/arrow_down.d7fb0ea8.svg"
   },
   {
     "revision": "8d72dfd0e200b6fab426f51b8f32cc53",
