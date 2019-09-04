@@ -24,6 +24,9 @@ a {
     color: #F16C6C;
     text-decoration: none;
 }
+a:hover, a:hover h2{
+    color: #FE9898;
+}
 .section{
     margin: 150px 0;
 }

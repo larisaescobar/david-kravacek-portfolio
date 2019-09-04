@@ -51,12 +51,12 @@ h1 {
     margin-top: -10px;
   }
   .arrow:hover .arrow-top{
-      background-color: #000;
+      background-color:#FE9898;
   }
   .arrow:hover .arrow-bottom{
     border-color: 
-          #F16C6C
-         #F16C6C
+        #FE9898
+         #FE9898
           transparent
           transparent;
   }
