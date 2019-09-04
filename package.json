@@ -1,5 +1,5 @@
 {
-  "homepage": "https://larisaescobar.github.io/david-kravacek-portfolio",
+  "homepage": "https://larisaescobar.github.io/david-kravacek-portfolio/",
   "name": "davidkravacek",
   "version": "0.1.0",
   "private": true,
@@ -9,14 +9,14 @@
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1"
   },
-  "scripts": {
+  "scripts": {    
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
+    "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
+ },
   "eslintConfig": {
     "extends": "react-app"
   },
