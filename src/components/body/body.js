@@ -26,21 +26,21 @@ export default class Body extends React.PureComponent {
                     <p>I've had the opportunity to collaborate with some wonderful companies <br></br>
                         start-ups and the incredible people behind them. Here are some of my clients.</p>
                         <div id='clientLogos' className='flex-div'>
-                            <img id='redbull' src={this.props.redbullLogo} alt="redbull logo" /> 
-                            <img id='mondelez'  src={this.props.mondelezLogo} alt="mondelez logo" /> 
-                            <img id='mews'  src={this.props.mewsLogo} alt="mews logo" /> 
-                            <img id='malltv'  src={this.props.malltvLogo} alt="malltv logo" /> 
+                            <img className='clientLogo' src={this.props.redbullLogo} alt="redbull logo" /> 
+                            <img className='clientLogo'  src={this.props.mondelezLogo} alt="mondelez logo" /> 
+                            <img className='clientLogo'  src={this.props.mewsLogo} alt="mews logo" /> 
+                            <img className='clientLogo'  src={this.props.malltvLogo} alt="malltv logo" /> 
                         </div>
                         <div id='clientLogos' className='flex-div'>
-                            <img id='bb' src={this.props.bbLogo} alt="bb logo" /> 
-                            <img id='skoda'  src={this.props.skodaLogo} alt="skoda logo" /> 
-                            <img id='primago'  src={this.props.primagoLogo} alt="primago logo" /> 
-                            <img id='tbUniiversity'  src={this.props.tbUniversityLogo} alt="tbUniversity logo" /> 
+                            <img className='clientLogo' src={this.props.bbLogo} alt="bb logo" /> 
+                            <img className='clientLogo'  src={this.props.skodaLogo} alt="skoda logo" /> 
+                            <img className='clientLogo'  src={this.props.primagoLogo} alt="primago logo" /> 
+                            <img className='clientLogo'  src={this.props.tbUniversityLogo} alt="tbUniversity logo" /> 
                         </div>
                 </div>
                 <footer id='contact' className='section'>
                     <h6>Get in touch</h6>
-                    <a href="mailto:hello@davidkravacek.com"><h2>hello@davidkravacek.com</h2></a>
+                    <a href="mailto:hello@davidkravacek.com?subject=Hello David"><h2>hello@davidkravacek.com</h2></a>
                     <div className='flex-div footer-div'>
                         <div>
                             <p>Just say hello and we can meet. Btw, you can also find me in 
@@ -48,10 +48,8 @@ export default class Body extends React.PureComponent {
                                 <a href="https://www.behance.net/davidkravacek/"> <img src={this.props.behanceLogo} id='behance-logo'className="footer-logo" alt="behance logo" /> </a>
                                 <a herf="https://vimeo.com/dejvcz/"><img src={this.props.vimeoLogo} id='vimeo-logo' className="footer-logo" alt="vimeo logo" /> </a>    .</p>
                         </div>
-                        <div>
-                            <span>Coded with <img src={this.props.greyheart} alt="heart" /> by <a className='footer-anchor' href='https://larisaescobar.github.io' target='_blank' rel='noopener noreferrer'>Larisa Escobar</a>.</span>
-                        </div>
-                    </div>    
+                    </div>   
+                    <span>Coded with <img src={this.props.greyheart} alt="heart" /> by <a className='footer-anchor' href='https://larisaescobar.github.io' target='_blank' rel='noopener noreferrer'>Larisa Escobar</a>.</span> 
                 </footer>
             </div>
         )

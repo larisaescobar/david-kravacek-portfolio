@@ -44,31 +44,10 @@ a:hover, a:hover h2{
 footer span{
     font-size: 15px;
     color: #C4C4C4; 
+    display: block;
+    margin-top: 56px;
 }
-#redbull{
-    max-width: 98px;
-}
-#malltv{
-    max-width: 67px;
-}
-#mews{
-    max-width: 122px;
-}
-#mondelez{
-    max-width: 147px;
-}
-#bb{
-    max-width: 96px;
-}
-#skoda{
-    max-width: 70px;
-}
-#primago{
-    max-width: 135px;
-}
-#tbUniiversity{
-    max-width: 207px;
-}
+
 .footer-logo{
     margin-bottom: -5px;
 }
@@ -94,6 +73,9 @@ footer span{
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 32px;
+}
+.clientLogo{
+    max-width: 120px;
 }
 .section-title{
     display: initial;
