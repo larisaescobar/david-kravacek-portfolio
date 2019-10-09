@@ -89,6 +89,9 @@ a:hover #vimeo-logo{
     margin-bottom: 0;
 }
 @media only screen and (max-width: 520px){
+    h2{
+        font-size: 20px;
+    }
   .section{
     margin: 80px auto;
   }

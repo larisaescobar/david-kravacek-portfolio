@@ -23,7 +23,7 @@ export default class Body extends React.PureComponent {
                     
                         <h2>Let’s conquer the digital world<a href='#contact'> together</a>.</h2>
                     
-                    <p>I've had the opportunity to collaborate with some wonderful companies <br></br>
+                    <p>I've had the opportunity to collaborate with some wonderful companies 
                         start-ups and the incredible people behind them. Here are some of my clients.</p>
                         <div id='clientLogos' className='flex-div'>
                             <img className='clientLogo' src={this.props.redbullLogo} alt="redbull logo" /> 
