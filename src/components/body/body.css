@@ -96,19 +96,24 @@ a:hover #vimeo-logo{
     flex-direction: row;
     flex-wrap: wrap;
     margin-top: 32px;
-}
-.section-title{
-    display: initial;
-}
-#clientLogos img{
-   margin: 16px 8px;
-   max-width: 112px;
-}
-.flex-div.footer-div{
-    flex-direction: column;
-    align-items: start;
-}
-.footer-div div{
-    margin: 16px 0;
-}
+    }
+    .section-title{
+        display: initial;
+    }
+    #clientLogos img{
+    margin: 16px 8px;
+    max-width: 112px;
+    }
+    .flex-div.footer-div{
+        flex-direction: column;
+        align-items: start;
+    }
+    .footer-logo{
+        margin-left: 0;
+        margin-right: 8px;
+    }
+    .footer-div{
+        margin: 16px 0;
+        display: inline;
+    }
 }
