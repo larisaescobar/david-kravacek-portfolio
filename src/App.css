@@ -34,8 +34,8 @@
 }
 @media only screen and (max-width: 520px){
   .App{
-    padding: 16px;
-    max-width: 320px;
+    padding: 16px 8px;
+    max-width: 300px;
     margin: 0 auto;
   }
   .section{

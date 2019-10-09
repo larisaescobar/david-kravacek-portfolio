@@ -95,7 +95,7 @@ a:hover #vimeo-logo{
   #clientLogos{
     flex-direction: row;
     flex-wrap: wrap;
-    margin-top: 32px;
+    justify-content: space-around;
     }
     .section-title{
         display: initial;
