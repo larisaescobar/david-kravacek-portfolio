@@ -58,7 +58,7 @@ a:hover, a:hover h2{
     display: inline-flex;
     height: 30px;
     width: 30px;
-    margin: 0 4px;
+    margin-left: 8px;
 }
 #drible-logo{
     background-image: url('./dribbble.svg');
@@ -83,6 +83,7 @@ a:hover #vimeo-logo{
 }
 .footer-div{
     align-items: flex-end;
+    display: flex;
 }
 .footer-div p {
     margin-bottom: 0;
@@ -96,7 +97,6 @@ a:hover #vimeo-logo{
     flex-wrap: wrap;
     margin-top: 32px;
 }
-
 .section-title{
     display: initial;
 }
