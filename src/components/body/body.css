@@ -4,6 +4,7 @@ h2 {
     font-weight: 500;
     line-height: 28px;
     margin: 0;
+    display: contents;
   }
   h6 {
     color: #6f6f6f;
@@ -39,17 +40,43 @@ a:hover, a:hover h2{
 }
 #clientLogos{
     max-width: 600px;
-    margin-top: 72px;
+    margin-top: 16px;
 }
-footer span{
+.clientLogo{
+    max-width: 136px;
+}
+#coded-by{
     font-size: 15px;
     color: #C4C4C4; 
     display: block;
     margin-top: 56px;
 }
-
 .footer-logo{
-    margin-bottom: -5px;
+    background-size:contain;
+    background-position:top;
+    background-repeat: no-repeat;
+    display: inline-flex;
+    height: 30px;
+    width: 30px;
+    margin: 0 4px;
+}
+#drible-logo{
+    background-image: url('./dribbble.svg');
+}
+a:hover #drible-logo{
+    background-image: url('./h_dribbble.svg');
+}
+#behance-logo{
+    background-image: url('./behance.svg');
+}
+a:hover #behance-logo{
+    background-image: url('./h_behance.svg');
+}
+#vimeo-logo{
+    background-image: url('./vimeo.svg');
+}
+a:hover #vimeo-logo{
+    background-image: url('./h_vimeo.svg');
 }
 .footer-anchor{
     color: #C4C4C4;
@@ -60,12 +87,7 @@ footer span{
 .footer-div p {
     margin-bottom: 0;
 }
-
 @media only screen and (max-width: 520px){
-  .App{
-    padding: 16px;
-    width: 100%;
-  }
   .section{
     margin: 80px auto;
   }
@@ -74,9 +96,7 @@ footer span{
     flex-wrap: wrap;
     margin-top: 32px;
 }
-.clientLogo{
-    max-width: 120px;
-}
+
 .section-title{
     display: initial;
 }

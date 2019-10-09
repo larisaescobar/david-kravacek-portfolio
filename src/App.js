@@ -8,9 +8,6 @@ import prima from './assets/prima.png';
 import skoda from './assets/skoda.png';
 import tbu from './assets/tbu.png'
 import malltv from './assets/malltv.png';
-import drible from './assets/dribbble.svg';
-import behance from './assets/behance.svg';
-import vimeo from './assets/vimeo.svg';
 import heart from './assets/heart.svg';
 import greyheart from './assets/heart-grey.svg';
 import Header from './components/header/header';
@@ -34,9 +31,6 @@ function App() {
         skodaLogo={skoda}
         primagoLogo={prima}
         tbUniversityLogo={tbu}
-        dribleLogo={drible}
-        behanceLogo={behance}
-        vimeoLogo={vimeo}
         greyheart={greyheart}
         heart={heart}
         />
