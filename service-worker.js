@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/david-kravacek-portfolio/precache-manifest.b09a8cde10523e911cef36b6acc4d36c.js"
+  "/david-kravacek-portfolio/precache-manifest.30a754eb7e41da4cd87828d5ac187119.js"
 );
 
 self.addEventListener('message', (event) => {
